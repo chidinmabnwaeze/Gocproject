@@ -35,14 +35,19 @@ const Service = [
 
 export default function Services() {
   return (
+    <div className="services-section">
+    <div className="heading">
+      <h3>Why Choose Us</h3>
+      </div>
     <div className="services">
       {Service.map((service, index) => (
-        <div className="services-card" key={index}>
+        <div className="service-card" key={index}>
           <img className="image" src={service.img} alt="" />
-          <h3>{service.title}</h3>
+          <h4>{service.title}</h4>
           <p>{service.info}</p>
         </div>
       ))}
+    </div>
     </div>
   );
 }

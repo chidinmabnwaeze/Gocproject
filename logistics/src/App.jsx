@@ -5,8 +5,8 @@ import './App.css'
 import Body from './components/body';
 import Header from './components/header';
 // import Footer from './components/footer';
-import Card from './components/card2';
 import Services from './services';
+import Vendor from './components/vendor'
 
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
     <>
       <Header/>
     <Body/>
-    <Card/>
     <Services/>
+    <Vendor/>
     
     </>
   )
