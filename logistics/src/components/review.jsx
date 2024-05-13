@@ -10,7 +10,13 @@ export default function Reviews (){
    <div className="review-cards">
     <div className="review-card">
         <img className="profile-pic" src="" alt="" />
-        
+        <p className="subject">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Perferendis, culpa? Quae, maiores suscipit? Placeat minima a sequi repudiandae molestiae dolorum sint esse alias odit maiores? 
+            Accusamus explicabo aliquid cupiditate odit?
+        </p>
+        <p className="name">Matt Joe</p>
+        <p className="status">Client</p>
     </div>
    </div>
    </div>
