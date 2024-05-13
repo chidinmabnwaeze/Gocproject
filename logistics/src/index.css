@@ -1,0 +1,224 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.theheader{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  color: white;
+  
+ 
+}
+
+.nav-logo p{
+font-weight: bold;
+}
+.nav-logo span{
+  font-weight: bold;
+  color:blue
+
+}
+.nav-list{
+  list-style: none;
+  
+}
+.nav-link{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  /* background-color: green; */
+
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+
+.login{
+border: none;
+border: none;
+background-color: transparent;
+color: white;
+padding-right: 30px;
+}
+.register{
+  background-color: rgba(0,119,182,1);
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 8px 12px;
+} 
+.section1{
+  /* background-image: url(/new-project/images/national-cancer-institute-S-3AnKlICmY-unsplash.jpg); */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #020334;
+  opacity:0.9 ;
+  color: white;
+  padding: 70px;
+  
+}
+.faint-logo{
+  background-color: rgba(245,245,255,1);
+  padding: 30px;
+  margin: 0;
+ 
+}
+.delivery-request{
+  margin-left:100px;
+  
+  background-color: rgba(0,119,182,1);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.card-text{
+ word-wrap: break-word; 
+}
+.center-text{
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.sub-text{
+  font-size: 16px;
+  color: rgba(255,255,255,0.72);
+  
+}
+.card{
+width: 200px;
+ 
+  margin: 20px;
+  justify-content: flex-end;
+}
+.logistics{
+  display: grid;
+  grid-template-columns: repeat(2,1fr );
+  
+}
+
+.section3b{
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+.butt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.butt button{
+  background-color: rgba(0,119,182,1);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.card2{
+  display: flex;
+  flex-direction: column;
+  width: 200px; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.image{
+  width: 200px;
+  height: 50px;
+}
+
+
