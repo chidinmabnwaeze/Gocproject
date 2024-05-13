@@ -7,6 +7,7 @@ import Header from './components/header';
 // import Footer from './components/footer';
 import Services from './services';
 import Vendor from './components/vendor'
+import Reviews from './components/review';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Body/>
     <Services/>
     <Vendor/>
+    <Reviews/>
     
     </>
   )
