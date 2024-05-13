@@ -11,9 +11,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-a {
+/*a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -67,158 +67,146 @@ button:focus-visible {
   }
 } */
 
+/* *{
+margin: 0;
+padding: 0;
+} */
 
 body {
   margin: 0;
-  box-sizing: border-box;
+  width: 100%;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-.theheader{
+} */
+.theheader {
   position: fixed;
   left: 0;
   right: 0;
   z-index: 100;
   color: white;
-  
- 
 }
 
-.nav-logo p{
-font-weight: bold;
-}
-.nav-logo span{
+.nav-logo p {
   font-weight: bold;
-  color:blue
-
 }
-.nav-list{
+.nav-logo span {
+  font-weight: bold;
+  color: blue;
+}
+.nav-list {
   list-style: none;
-  
 }
-.nav-link{
+.nav-link {
   text-decoration: none;
   padding: 20px;
   color: white;
 }
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  
+
   /* background-color: green; */
-
 }
-.navbar ul{
+.navbar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
 
-
-.login{
-border: none;
-border: none;
-background-color: transparent;
-color: white;
-padding-right: 30px;
+.login {
+  border: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding-right: 30px;
 }
-.register{
-  background-color: rgba(0,119,182,1);
+.register {
+  background-color: rgba(0, 119, 182, 1);
   border: none;
   color: white;
   border-radius: 30px;
   padding: 8px 12px;
-} 
-.section1{
+}
+.section1 {
   /* background-image: url(/new-project/images/national-cancer-institute-S-3AnKlICmY-unsplash.jpg); */
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #020334;
-  opacity:0.9 ;
+  opacity: 0.9;
   color: white;
   padding: 70px;
-  
 }
-.faint-logo{
-  background-color: rgba(245,245,255,1);
+.faint-logo {
+  background-color: rgba(245, 245, 255, 1);
   padding: 30px;
   margin: 0;
- 
 }
-.delivery-request{
-  margin-left:100px;
-  
-  background-color: rgba(0,119,182,1);
+.delivery-request {
+  margin-left: 100px;
+
+  background-color: rgba(0, 119, 182, 1);
   color: white;
   border: none;
   border-radius: 20px;
   padding: 10px 15px;
 }
-.card-text{
- word-wrap: break-word; 
+.card-text {
+  word-wrap: break-word;
 }
-.center-text{
+.center-text {
   font-weight: bold;
   text-align: center;
   font-size: 40px;
   margin-bottom: 0;
 }
-.sub-text{
+.sub-text {
   font-size: 16px;
-  color: rgba(255,255,255,0.72);
-  
+  color: rgba(255, 255, 255, 0.72);
 }
-.card{
-width: 200px;
- 
+.card {
+  width: 200px;
+
   margin: 20px;
   justify-content: flex-end;
 }
-.logistics{
+.logistics {
   display: grid;
-  grid-template-columns: repeat(2,1fr );
-  
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.section3b{
+.section3b {
   display: flex;
   justify-content: space-evenly;
- 
 }
 .butt {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.butt button{
-  background-color: rgba(0,119,182,1);
+.butt button {
+  background-color: rgba(0, 119, 182, 1);
   color: white;
   border: none;
   border-radius: 20px;
   padding: 10px 15px;
 }
-.card2{
+.card2 {
   display: flex;
   flex-direction: column;
-  width: 200px; 
+  width: 200px;
   align-items: center;
   justify-content: center;
   text-align: center;
- 
 }
-.image{
+.image {
   width: 200px;
   height: 50px;
 }
-
-
