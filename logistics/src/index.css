@@ -91,6 +91,7 @@ body {
   z-index: 100;
   color: white;
   padding: 1rem;
+ 
 }
 
 .nav-logo p {
@@ -136,23 +137,36 @@ body {
   padding: 8px 12px;
 }
 .section1 {
-  /* background-image: url(/new-project/images/national-cancer-institute-S-3AnKlICmY-unsplash.jpg); */
+  background-image: url("../src/assets/images/ismael-paramo-tnVdQGmWtb0-unsplash.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.middle-text{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #020334;
-  opacity: 0.9;
   color: white;
-  padding: 100px;
+  padding: 110px;
+  background-color: #020334;
+ opacity: 0.7;
 }
+.second-div{
+  opacity: 1;
+  color: white;
+}
+
 .faint-logo {
   background-color: rgba(245, 245, 255, 1);
   padding: 30px;
   margin: 0;
 }
 .delivery-request {
-  margin-left: 100px;
-
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   background-color: rgba(0, 119, 182, 1);
   color: white;
   border: none;
@@ -175,7 +189,6 @@ body {
 }
 .card {
   width: 200px;
-
   margin: 20px;
   justify-content: flex-end;
 }
@@ -200,12 +213,12 @@ body {
   border-radius: 20px;
   padding: 10px 15px;
 }
+
 .service-card {
   display: flex;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
-
   flex-direction: column;
   width: 200px;
   align-items: center;
@@ -218,6 +231,7 @@ body {
 }
 .services{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 
 }
@@ -228,6 +242,7 @@ body {
 }
 .services-section{
   background-color: rgba(245, 245, 255, 1);
+
 }
 .box{
   display: flex;
