@@ -3,17 +3,17 @@ const reviews =[
 {img : "/illustrations",
 subject : " Lorem ipsum dolor sit, amet consectetur adipisicing elit.Perferendis, culpa? Quae, maiores suscipit? Placeat minima a sequi repudiandae molestiae dolorum sint esse alias odit maiores? Accusamus explicabo aliquid cupiditate odit?",
 name :" Matt Joe",
-status: "client"
+status: "Client"
 },
 {img : "/illustrations",
 subject : " Lorem ipsum dolor sit, amet consectetur adipisicing elit.Perferendis, culpa? Quae, maiores suscipit? Placeat minima a sequi repudiandae molestiae dolorum sint esse alias odit maiores? Accusamus explicabo aliquid cupiditate odit?",
 name :" Matt Joe",
-status: "client"
+status: "Client"
 },
 {img : "/illustrations",
 subject : " Lorem ipsum dolor sit, amet consectetur adipisicing elit.Perferendis, culpa? Quae, maiores suscipit? Placeat minima a sequi repudiandae molestiae dolorum sint esse alias odit maiores? Accusamus explicabo aliquid cupiditate odit?",
 name :" Matt Joe",
-status: "client"
+status: "Client"
 }
 
 ]

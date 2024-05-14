@@ -1,8 +1,9 @@
 import React from "react";
-// import "./illustrations/"
+// import illustrations from './assets/illustrations'
 const Service = [
   {
-    img: "./illustrations/Frame 139.png",
+    // img: {illustrations},
+    img: ".illustrations/Frame 139.png",
     title: "Explore Various Services",
     info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est veniamdolorum aliquam redc",
   },

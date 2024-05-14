@@ -4,10 +4,11 @@
 import './App.css'
 import Body from './components/body';
 import Header from './components/header';
-// import Footer from './components/footer';
 import Services from './services';
 import Vendor from './components/vendor'
 import Reviews from './components/review';
+import Footer from './components/footer';
+// import illustrations from './assets/illustrations';
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
     <Services/>
     <Vendor/>
     <Reviews/>
+    <Footer/>
     
+  
     </>
   )
 }

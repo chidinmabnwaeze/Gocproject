@@ -1,4 +1,5 @@
 import React from "react";
+// import image from "../assets/images/dispatch ride.png"
 
 export default function Vendor (){
     return(
@@ -21,7 +22,7 @@ export default function Vendor (){
 
             </div>
             <div className="img-section">
-                        <img src="images/" alt="" />
+                        <img src=" ./images" alt="" />
                     </div>
            </div>
 
