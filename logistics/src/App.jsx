@@ -8,6 +8,7 @@ import Services from './services';
 import Vendor from './components/vendor'
 import Reviews from './components/review';
 import Footer from './components/footer';
+import Login from '../../login/login';
 // import illustrations from './assets/illustrations';
 
 
@@ -22,6 +23,7 @@ function App() {
     <Vendor/>
     <Reviews/>
     <Footer/>
+    <Login/>
     
   
     </>

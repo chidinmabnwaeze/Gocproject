@@ -170,7 +170,6 @@ body {
 .img1, .img2, .img3{
   width: 160px;
   
-
 }
 .delivery-request {
   display: flex;
@@ -342,9 +341,9 @@ font-size: 14px;
 .name{
 font-weight: bold;
 }
-.status{
+/* .status{
 
-}
+} */
 .footer{
   display: flex;
   justify-content: space-around;
@@ -377,4 +376,36 @@ font-weight: bold;
 }
 .instagram{
   width: 20px;
+}
+
+/* login section */
+
+.Login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #020334;
+  margin: 20px;
+  border-radius: 30px;
+  color: white;
+  
+}
+.padlock{
+  width: 400px;
+  padding-right: 40px;
+}
+.welcome-head{
+ 
+}
+.welcome-text{
+  color: rgba(255, 255, 255, 0.78);
+}
+.img{
+
+}
+hr{
+  
+}
+.or{
+ display: inline;
 }

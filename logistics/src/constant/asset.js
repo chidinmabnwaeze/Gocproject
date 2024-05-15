@@ -19,6 +19,13 @@ import facebook from '../assets/icon/Frame 42.png'
 import twitter from '../assets/icon/Frame 41.png'
 import linkedin from '../assets/icon/Frame 43.png'
 import instagram from '../assets/icon/Frame 44.png'
+import lock from '../assets/images/lock.png'
+import google from '../assets/icon/akar-icons_google-fill.png'
+import apple from '../assets/icon/bi_apple.png'
+import fb from '../assets/icon/brandico_facebook.png'
+
+
+
 
 export {
     illustrations,
@@ -41,6 +48,11 @@ export {
     facebook,
     twitter,
     linkedin,
-    instagram
+    instagram,
+    lock,
+    google,
+    apple,
+    fb
+
 
 }
