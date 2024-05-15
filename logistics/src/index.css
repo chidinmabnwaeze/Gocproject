@@ -409,3 +409,60 @@ hr{
 .or{
  display: inline;
 }
+.icons img {
+  background-color: white;
+  margin: 10px;
+  width: 30px;
+}
+.icon3{
+  width: 15px;
+}
+.first-part{
+margin: 0 auto;
+}
+.email{
+  margin: 0;
+}
+label input{
+  height:45px ;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(240, 240, 240, 0.21);
+}
+label ::placeholder{
+  padding:10px ;
+  
+}
+ ::placeholder:active{
+  background-color: white;
+  border: none;
+  
+}
+.remember-reset{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remember{
+  display: flex;
+  align-items: center;
+}
+.reset a{
+  text-decoration: none;
+  color:white ;
+
+}
+.reset-pass :hover{
+  background-color: blue;
+  text-decoration: underline;
+  transition: 1s;
+}
+.log{
+width: 100%;
+height: 45px;
+background-color: rgba(0, 119, 182, 1);
+border: none;
+border-radius: 8px;
+color: white;
+}
