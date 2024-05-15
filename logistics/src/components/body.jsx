@@ -1,4 +1,11 @@
 import react from "react";
+import { paxos } from "../constant/asset";
+import {newchip} from "../constant/asset"
+import {medable} from "../constant/asset"
+import { parcel } from "../constant/asset";
+import { flight } from "../constant/asset";
+import { truck } from "../constant/asset";
+import { carbon } from "../constant/asset";
 
 function main() {
   return (
@@ -63,9 +70,9 @@ function main() {
       </section>
       
       <section className="faint-logo">
-        <img className="img1" src="../" alt="" />
-        <img className="img2" src="" alt="" />
-        <img className="img3" src="" alt="" />`
+        <img className="img1" src= {medable} alt="" />
+        <img className="img2" src= {newchip} alt="" />
+        <img className="img3" src={paxos} alt="" />`
       </section>
 
       <section className="section3">
@@ -73,7 +80,7 @@ function main() {
           <h1>We cover Everything Logistics</h1>
           <div className="logistics">
             <div className="card">
-              <img src="images" alt="" />
+              <img src={parcel} alt="" />
               <div className="title">
                 <h4>Parcel Delivery</h4>
               </div>
@@ -84,9 +91,9 @@ function main() {
             </div>
 
             <div className="card">
-              <img src="images" alt="" />
+              <img src={truck} alt="" />
               <div className="title">
-                <h4>Parcel Delivery</h4>
+                <h4>Truck Delivery</h4>
               </div>
               <div className="card-text">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -95,18 +102,18 @@ function main() {
             </div>
 
             <div className="card">
-              <img src="images" alt="" />
+              <img src={carbon} alt="" />
               <div className="title">
-                <h4>Parcel Delivery</h4>
+                <h4>Office/ Home relocation</h4>
               </div>
               <div className="card-text">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
               </div>
             </div>
             <div className="card">
-              <img src="images" alt="" />
+              <img src={flight} alt="" />
               <div className="title">
-                <h4>Parcel Delivery</h4>
+                <h4>International delivery</h4>
               </div>
               <div className="card-text">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>

@@ -161,7 +161,16 @@ body {
 .faint-logo {
   background-color: rgba(245, 245, 255, 1);
   padding: 30px;
-  margin: 0;
+
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+.img1, .img2, .img3{
+  width: 160px;
+  
+
 }
 .delivery-request {
   display: flex;
