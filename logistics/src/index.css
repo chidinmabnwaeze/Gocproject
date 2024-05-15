@@ -317,6 +317,9 @@ justify-content: space-evenly;
   color: rgba(100, 100, 100, 1);
   
 }
+.profile-pic{
+  width: 50px;
+}
 .subject{
 word-wrap: break-word;
 font-size: 14px;
