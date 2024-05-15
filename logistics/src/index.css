@@ -201,6 +201,9 @@ body {
   margin: 20px;
   justify-content: flex-end;
 }
+.card img{
+  width: 40px;
+}
 .logistics {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -243,6 +246,10 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 
+}
+.image{
+  width: 40px;
+  object-fit: contain;
 }
 .heading{
   display: flex;

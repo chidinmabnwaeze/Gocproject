@@ -1,4 +1,5 @@
 import React from "react";
+import { dispatch } from "../constant/asset";
 // import image from "../assets/images/dispatch ride.png"
 
 export default function Vendor() {
@@ -23,7 +24,7 @@ export default function Vendor() {
           <button className="vendor-button">Become a Vendor</button>
         </div>
         <div className="img-section">
-          <img src=" ./images" alt="" />
+          <img src={dispatch} alt="" />
         </div>
       </div>
     </div>

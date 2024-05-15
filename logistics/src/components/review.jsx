@@ -1,16 +1,21 @@
 import React from "react";
+import { pic1 } from "../constant/asset";
+
 const reviews =[
-{img : "/illustrations",
+{
+img : pic1 ,
 subject : " Lorem ipsum dolor sit, amet consectetur adipisicing elit.Perferendis, culpa? Quae, maiores suscipit? Placeat minima a sequi repudiandae molestiae dolorum sint esse alias odit maiores? Accusamus explicabo aliquid cupiditate odit?",
 name :" Matt Joe",
 status: "Client"
 },
-{img : "/illustrations",
+{
+img : pic2,
 subject : " Lorem ipsum dolor sit, amet consectetur adipisicing elit.Perferendis, culpa? Quae, maiores suscipit? Placeat minima a sequi repudiandae molestiae dolorum sint esse alias odit maiores? Accusamus explicabo aliquid cupiditate odit?",
 name :" Matt Joe",
 status: "Client"
 },
-{img : "/illustrations",
+{
+img : "/illustrations",
 subject : " Lorem ipsum dolor sit, amet consectetur adipisicing elit.Perferendis, culpa? Quae, maiores suscipit? Placeat minima a sequi repudiandae molestiae dolorum sint esse alias odit maiores? Accusamus explicabo aliquid cupiditate odit?",
 name :" Matt Joe",
 status: "Client"
@@ -26,7 +31,7 @@ export default function Reviews (){
         Officia ipsam voluptatibus recusandae ut, natus commodi reiciendis sunt mollitia minus maiores eaque sint at quod id dolores exercitationem accusamus debitis inventore.</p>
    
    <div className="review-cards">
-    { reviews.map((review, index)=>(
+    {reviews.map((review, index)=>(
         <div className="review-card" key={index}> 
         <img className="profile-pic" src={review.img} alt="" />
         <p className="subject">

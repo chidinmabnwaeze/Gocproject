@@ -1,5 +1,6 @@
 import React from "react";
-import { illustrations } from "./constant/asset";
+import { frame140, frame141, frame142, frame143, frame144, illustrations } from "./constant/asset";
+
 
 
 const Service = [
@@ -10,27 +11,27 @@ const Service = [
     info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est veniamdolorum aliquam redc",
   },
   {
-    img: ".illustrations/Frame 139.png",
+    img: frame140,
     title: "Explore Various Services",
     info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est veniamdolorum aliquam redc",
   },
   {
-    img: ".illustrations/Frame 139.png",
+    img: frame141,
     title: "Explore Various Services",
     info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est veniamdolorum aliquam redc",
   },
   {
-    img: ".illustrations/Frame 139.png",
+    img: frame142,
     title: "Explore Various Services",
     info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est veniamdolorum aliquam redc",
   },
   {
-    img: ".illustrations/Frame 139.png",
+    img: frame143,
     title: "Explore Various Services",
     info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est veniamdolorum aliquam redc",
   },
   {
-    img: ".illustrations/Frame 139.png",
+    img: frame144,
     title: "Explore Various Services",
     info: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est veniamdolorum aliquam redc",
   },
