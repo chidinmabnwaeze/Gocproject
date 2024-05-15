@@ -299,6 +299,19 @@ width: calc(100%/2);
   color: white;
  margin-top:1rem ;
 }
+.reviews{
+  background-image: url("../src/assets/images/map\ image.png");
+}
+.review-texts{
+  padding: 40px;
+}
+.review-subtext{
+  white-space: wrap;
+  word-wrap: break-word;
+  width: 600px;
+ color: rgba(255, 255, 255, 0.78);
+ background-color: #020334;
+}
 .review-cards{
 display: flex;
 justify-content: space-evenly;
@@ -347,4 +360,19 @@ font-weight: bold;
 }
 .copy{
   padding: 0 120px;
+}
+.sm-links img{
+  padding-right: 5px;
+} 
+.facebook{
+  width: 15px;
+}
+.twitter{
+  width: 20px;
+}
+.linkedin{
+  width: 20px;
+}
+.instagram{
+  width: 20px;
 }

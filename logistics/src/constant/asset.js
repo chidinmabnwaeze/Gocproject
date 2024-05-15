@@ -15,10 +15,10 @@ import dispatch from '../assets/images/dispatch ride.png'
 import pic1 from '../assets/images/Ellipse 36.png'
 import pic2 from '../assets/images/Ellipse 36-1.png'
 import pic3 from '../assets/images/Ellipse 36-2.png'
-
-
-
-
+import facebook from '../assets/icon/Frame 42.png'
+import twitter from '../assets/icon/Frame 41.png'
+import linkedin from '../assets/icon/Frame 43.png'
+import instagram from '../assets/icon/Frame 44.png'
 
 export {
     illustrations,
@@ -37,6 +37,10 @@ export {
     dispatch,
     pic1,
     pic2,
-    pic3
+    pic3,
+    facebook,
+    twitter,
+    linkedin,
+    instagram
 
 }

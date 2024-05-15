@@ -1,4 +1,5 @@
 import react from "react";
+import { facebook, instagram, linkedin, twitter } from "../constant/asset";
 
 function Footer() {
   return (
@@ -12,10 +13,10 @@ function Footer() {
           </p>
         </div>
         <div className="sm-links">
-        <img className='facebook' src="./icons/"></img>
-        <img className='twitter' src="./icons/" ></img>
-        <img className='linkedin' src="./icons/" ></img>
-        <img className='instagram' src="./icons/" ></img>
+        <img className='facebook' src={facebook}></img>
+        <img className='twitter' src={twitter} ></img>
+        <img className='linkedin' src={linkedin} ></img>
+        <img className='instagram' src={instagram}></img>
         </div>
         </div>
 
