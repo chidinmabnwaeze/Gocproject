@@ -30,11 +30,17 @@ function Login (){
       <div className="remember-reset">
       <div className="remember">
             <input type="checkbox" />
-            Remember me
+           <p id=""> Remember me</p>
         </div>
         <div className="reset">
             <a href="">Reset Password</a>
         </div>
+      </div>
+      <div className="login-button">
+        <button>Login</button>
+      </div>
+      <div className="dont-have">
+        <p id="">Don't have an account <span><a href="">Sign up</a></span></p>
       </div>
     </form>
 </div>
