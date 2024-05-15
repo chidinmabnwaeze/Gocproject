@@ -300,7 +300,9 @@ width: calc(100%/2);
  margin-top:1rem ;
 }
 .reviews{
+  margin-top: 20px;
   background-image: url("../src/assets/images/map\ image.png");
+background-repeat: no-repeat;
 }
 .review-texts{
   padding: 40px;
@@ -309,8 +311,8 @@ width: calc(100%/2);
   white-space: wrap;
   word-wrap: break-word;
   width: 600px;
- color: rgba(255, 255, 255, 0.78);
- background-color: #020334;
+  color: rgba(100, 100, 100, 1);
+
 }
 .review-cards{
 display: flex;
