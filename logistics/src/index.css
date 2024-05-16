@@ -404,17 +404,19 @@ font-weight: bold;
 .img{
 
 }
-hr{
-  
-}
+
 .or{
 display: inline;
-text-align: center;
 
+}
+.or span{
+  padding-left: 1rem;
+ 
 }
 .left{
   float: left;
   width: 40%;
+  padding-right: 1rem;
  
 }
 .right{
@@ -431,7 +433,12 @@ text-align: center;
   width: 15px;
 }
 .first-part{
-margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
 }
 .email{
   margin: 0;

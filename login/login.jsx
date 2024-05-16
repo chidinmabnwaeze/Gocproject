@@ -18,13 +18,14 @@ export default function Login() {
           <img className="icon2" src={apple} alt="apple" />
           <img className="icon3" src={fb} alt="facebook" />
         </div>
+        </div>
+
         <div className="or">
          <hr className="left"></hr> 
           <span>
-            <p>OR</p> 
+            OR
           </span>
           <hr className="right" />
-        </div>
         </div>
 
         <form action="submit">
