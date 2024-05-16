@@ -10,14 +10,14 @@ import Reviews from './components/review';
 import Footer from './components/footer';
 import Login from '../../login/login';
 import Signup from '../../signup/signup';
-
+// import illustrations from './assets/illustrations';
 
 
 function App() {
 
 
   return (
-    <Signup>
+    <>
       <Header/>
     <Body/>
     <Services/>

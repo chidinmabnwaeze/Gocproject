@@ -1,8 +1,10 @@
 import react from "react";
 import Header from "../logistics/src/components/header";
 
+
 export default function Signup (){
-    <div className="sign-up">
+    return (
+        <div className="sign-up">
        <Header/> 
        <div className="as-customer">
         <div className="customer">
@@ -20,4 +22,6 @@ export default function Signup (){
         </div>
        </div>
     </div>
+    )
+    
 }
