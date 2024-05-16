@@ -393,6 +393,7 @@ font-weight: bold;
 .padlock{
   width: 400px;
   padding-right: 40px;
+ 
 }
 .welcome-head{
  
@@ -407,7 +408,19 @@ hr{
   
 }
 .or{
- display: inline;
+display: inline;
+text-align: center;
+
+}
+.left{
+  float: left;
+  width: 40%;
+ 
+}
+.right{
+  float: right;
+  width: 40%;
+ 
 }
 .icons img {
   background-color: white;
@@ -465,4 +478,19 @@ background-color: rgba(0, 119, 182, 1);
 border: none;
 border-radius: 8px;
 color: white;
+}
+.login-input{
+  
+  width: 500px;
+}
+.dont-have{
+text-align: center;
+}
+.signup{
+  padding-left: 0.5rem;
+  
+}
+.signup a{
+  color:rgba(0, 119, 182, 1);
+  text-decoration: none;
 }

@@ -19,11 +19,11 @@ export default function Login() {
           <img className="icon3" src={fb} alt="facebook" />
         </div>
         <div className="or">
-         <hr></hr> 
+         <hr className="left"></hr> 
           <span>
             <p>OR</p> 
           </span>
-          <hr />
+          <hr className="right" />
         </div>
         </div>
 
@@ -49,9 +49,9 @@ export default function Login() {
             <button className="log">Login</button>
           </div>
           <div className="dont-have">
-            <p id="">
-              Don't have an account{" "}
-              <span>
+            <p id="dont" className="dontt">
+              Don't have an account? 
+              <span className="signup">
                 <a href="">Sign up</a>
               </span>
             </p>
