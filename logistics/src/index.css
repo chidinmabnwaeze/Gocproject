@@ -396,10 +396,12 @@ font-weight: bold;
  
 }
 .welcome-head{
- 
+  margin-bottom: 0;
 }
 .welcome-text{
   color: rgba(255, 255, 255, 0.78);
+  margin-top: 0;
+ 
 }
 .img{
 
@@ -428,9 +430,10 @@ display: inline;
   background-color: white;
   margin: 10px;
   width: 30px;
+  padding: 10px;
 }
-.icon3{
-  width: 15px;
+.fb{
+  height: 30px;
 }
 .first-part{
 display: flex;

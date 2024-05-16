@@ -16,7 +16,7 @@ export default function Login() {
         <div className="icons">
           <img className="icon1" src={google} alt="google" />
           <img className="icon2" src={apple} alt="apple" />
-          <img className="icon3" src={fb} alt="facebook" />
+          <img className="fb" src={fb} alt="facebook" />
         </div>
         </div>
 
