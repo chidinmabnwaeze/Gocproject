@@ -403,10 +403,6 @@ font-weight: bold;
   margin-top: 0;
  
 }
-.img{
-
-}
-
 .or{
 display: inline;
 
@@ -490,7 +486,6 @@ border-radius: 8px;
 color: white;
 }
 .login-input{
-  
   width: 500px;
 }
 .dont-have{
@@ -504,3 +499,15 @@ text-align: center;
   color:rgba(0, 119, 182, 1);
   text-decoration: none;
 }
+
+/* mobile responsiveness Login */
+@media only screen and (max-width: 600px) {
+  .padlock{
+    display: none;
+  }
+  .login-input{
+padding: 50px;
+  }
+}
+
+/* sign up styles */
