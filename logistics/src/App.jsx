@@ -9,14 +9,15 @@ import Vendor from './components/vendor'
 import Reviews from './components/review';
 import Footer from './components/footer';
 import Login from '../../login/login';
-// import illustrations from './assets/illustrations';
+import Signup from '../../signup/signup';
+
 
 
 function App() {
 
 
   return (
-    <>
+    <Signup>
       <Header/>
     <Body/>
     <Services/>
@@ -24,6 +25,7 @@ function App() {
     <Reviews/>
     <Footer/>
     <Login/>
+    <Signup/>
     
   
     </>
