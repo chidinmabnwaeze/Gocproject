@@ -567,7 +567,9 @@ text-align: center;
 .vendor-text{
   color: rgba(255, 255, 255, 0.78);
 }
+.customer-text{
 
+}
 .start{
   background-color: rgba(0, 119, 182, 1);
   padding: 10px 15px;
