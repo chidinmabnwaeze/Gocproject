@@ -114,7 +114,6 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  /* background-color: green; */
 }
 .navbar ul {
   display: flex;
@@ -161,7 +160,6 @@ body {
 .faint-logo {
   background-color: rgba(245, 245, 255, 1);
   padding: 30px;
-
   display:flex;
   justify-content:space-between;
   align-items: center;
@@ -378,6 +376,17 @@ font-weight: bold;
   width: 20px;
 }
 
+/* media query for homepage */
+@media only screen and (max-width: 900px) {
+  .navbar ul {
+    display: none;
+    
+  }
+  .signupButtons{
+    display: none;
+  }
+}
+
 /* login section */
 
 .Login{
@@ -472,7 +481,7 @@ label ::placeholder{
 
 }
 .reset-pass :hover{
-  background-color: blue;
+  background-color: rgba(0, 119, 182, 1);
   text-decoration: underline;
   transition: 1s;
 }
@@ -527,5 +536,45 @@ padding: 20px 100px;
 }
 /* sign up styles */
 .sign-up{
+display: flex;
+justify-content: center;
+height: 700px;
+border-radius: 20px;
+/* background-color: red; */
+border-radius: 20px;
+height: 100%;
+}
+.as-customer{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px 0px;
+}
+.as-vendor{
+  background-color: #020334;
+  color: white;
+  padding: 40px;
+  border-radius: 0px 20px;
+ 
+}
+.customer, .a-vendor{
+text-align: center;
+  margin: 0 auto;
+}
+.vendor-head, .customer-head{
+  
+}
 
+.vendor-text{
+  color: rgba(255, 255, 255, 0.78);
+}
+.customer-text{
+
+}
+.start{
+  background-color: rgba(0, 119, 182, 1);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+ margin-top:1rem ;
 }
