@@ -1,7 +1,16 @@
 import react from "react";
 import Button from "../components/button"
 
-
+const dashboard =[
+  {
+    img: "",
+    title: "Parcel Delivery",
+    subject: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et."
+  },
+  {
+    
+  }
+]
 
 
 
