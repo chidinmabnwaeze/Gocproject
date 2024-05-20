@@ -6,6 +6,10 @@ import { parcel } from "../constant/asset";
 import { flight } from "../constant/asset";
 import { truck } from "../constant/asset";
 import { carbon } from "../constant/asset";
+import Services from "../services";
+import Vendor from "../components/vendor";
+import Reviews from "../components/review";
+import Footer from "../components/footer";
 
 function main() {
   return (
@@ -125,6 +129,11 @@ function main() {
           <button>Request delivery Now</button>
         </div>
       </section>
+
+      <Services/>
+      <Vendor/>
+      <Reviews/>
+      <Footer/>
     </div>
   );
 }

@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Routes ,Route } from "react-router-dom";
-import Body from './pages/home';
+import Home from './pages/home';
 import Header from './components/header';
 import Services from './services';
 import Vendor from './components/vendor'
@@ -21,18 +21,15 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-
+    <Route index element ={<Home/>}/>
+    <Route path = "/home" element ={<Home/>}/>
+    <Route path = "/login" element ={<Login/>}/>
+    <Route path = "/signup" element ={<Signup/>}/>
     </Routes>
     </BrowserRouter>
-    
-      <Header/>
-    <Body/>
-    <Services/>
-    <Vendor/>
-    <Reviews/>
-    <Footer/>
-    <Login/>
-    <Signup/>
+
+   
+   
     
   
     </>
