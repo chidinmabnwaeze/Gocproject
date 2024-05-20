@@ -11,7 +11,9 @@ import Reviews from './components/review';
 import Footer from './components/footer';
 import Login from './pages/login';
 import Signup from './pages/signup';
-// import illustrations from './assets/illustrations';
+import Dashboard from './pages/userdash';
+
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
     <Route path = "/home" element ={<Home/>}/>
     <Route path = "/login" element ={<Login/>}/>
     <Route path = "/signup" element ={<Signup/>}/>
+    <Route path ="/dashboard" element ={<Dashboard/>}/>
     </Routes>
     </BrowserRouter>
 

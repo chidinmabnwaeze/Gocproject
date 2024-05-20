@@ -1,4 +1,12 @@
 import react from "react";
+import Button from "../components/button"
+
+
+
+
+
+
+
 
 export default function Dashboard() {
   return (
@@ -12,8 +20,10 @@ export default function Dashboard() {
                 <h3 className="action-head">Parcel Delivery</h3>
                 <p className="action-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis. 
-                    Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.</p>
+                    Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.
+                    </p>
             </div>
+            <Button/>
         </div>
 
       </div>
