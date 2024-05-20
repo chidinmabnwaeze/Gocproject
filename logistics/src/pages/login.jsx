@@ -1,5 +1,6 @@
 import react from "react";
-import { apple, fb, google, lock } from "../logistics/src/constant/asset";
+
+import { apple, fb, google, lock } from "../constant/asset";
 
 export default function Login() {
   return (

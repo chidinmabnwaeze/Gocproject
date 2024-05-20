@@ -2,14 +2,15 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Body from './components/body';
+import { BrowserRouter, Routes ,Route } from "react-router-dom";
+import Body from './pages/home';
 import Header from './components/header';
 import Services from './services';
 import Vendor from './components/vendor'
 import Reviews from './components/review';
 import Footer from './components/footer';
-import Login from '../../login/login';
-import Signup from '../../signup/signup';
+import Login from './pages/login';
+import Signup from './pages/signup';
 // import illustrations from './assets/illustrations';
 
 
@@ -18,6 +19,12 @@ function App() {
 
   return (
     <>
+    <BrowserRouter>
+    <Routes>
+
+    </Routes>
+    </BrowserRouter>
+    
       <Header/>
     <Body/>
     <Services/>
