@@ -134,6 +134,7 @@ body {
   color: white;
   border-radius: 30px;
   padding: 8px 12px;
+  cursor: pointer;
 }
 .section1 {
   background-image: url("../src/assets/images/ismael-paramo-tnVdQGmWtb0-unsplash.jpg"); 
@@ -221,6 +222,7 @@ body {
   border: none;
   border-radius: 20px;
   padding: 10px 15px;
+  cursor: pointer;
 }
 
 .service-card {
@@ -295,6 +297,7 @@ width: calc(100%/2);
   border-radius: 20px;
   color: white;
  margin-top:1rem ;
+ cursor: pointer;
 }
 .reviews{
   margin-top: 20px;
@@ -492,6 +495,7 @@ background-color: rgba(0, 119, 182, 1);
 border: none;
 border-radius: 8px;
 color: white;
+cursor: pointer;
 }
 .login-input{
   width: 500px;
@@ -538,10 +542,9 @@ padding: 20px 100px;
 .sign-up{
 display: flex;
 justify-content: center;
-height: 700px;
 border-radius: 20px;
 /* background-color: red; */
-border-radius: 20px;
+margin: 0 auto;
 height: 100%;
 }
 .as-customer{
@@ -577,5 +580,6 @@ text-align: center;
   border-radius: 20px;
   color: white;
  margin-top:1rem ;
+ cursor: pointer;
 
 }
