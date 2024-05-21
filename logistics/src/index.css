@@ -94,6 +94,21 @@ body {
  
 }
 
+.headeruser {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  color: #020231;
+  padding: 1rem;
+ 
+}
+.headeruser .nav-link{
+  color: #020231;
+}
+.headerpic img{
+  width: 40px;
+}
 .nav-logo p {
   font-weight: bold;
 }
@@ -603,7 +618,7 @@ padding: 60px;
   width: 200px;
   justify-content: center;
   align-items: center;
-
+padding-bottom: 40px;
 }
 .dash-img{
   width: 400px;
@@ -623,3 +638,14 @@ width: 400px;
   cursor: pointer;
   width: 200px;
 }
+/* mobile responsiveness  */
+@media only screen and (max-width: 600px){
+.actions{
+  flex-direction: column;
+
+}
+.action-text{
+ font-size: 20px;
+}
+}
+

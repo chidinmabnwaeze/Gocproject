@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { pic1 } from "../constant/asset";
 
 
 function header() {
   return (
     <div>
-       <header className="theheader">
+       <header className="headeruser">
         <nav className="navbar">
           <div className="nav-logo">
             <p>
@@ -39,9 +40,8 @@ function header() {
             </li>
           </ul>
 
-          <div className="signupButtons">
-            <button className="login">Login</button>
-            <button className="register">Register</button>
+          <div className="headerpic">
+           <img src={pic1} alt="" />
           </div>
         </nav>
       </header> 

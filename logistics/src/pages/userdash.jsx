@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "../components/button";
 import { rec1, rec2, rec3, rec4 } from "../constant/asset";
-import Header from "../components/header";
+import Header from "../components/headProfile";
+import Footer from "../components/footer";
 
 const dashboard = [
   {
@@ -12,19 +12,19 @@ const dashboard = [
   },
   {
     img: rec2,
-    title: "Parcel Delivery",
+    title: "Truck Delivery",
     subject:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.",
   },
   {
     img: rec3,
-    title: "Parcel Delivery",
+    title: "Office/Home relocation ",
     subject:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.",
   },
   {
     img: rec4,
-    title: "Parcel Delivery",
+    title: "International Delivery",
     subject:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.",
   },
@@ -48,6 +48,7 @@ export default function Dashboard() {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
   );
 }
