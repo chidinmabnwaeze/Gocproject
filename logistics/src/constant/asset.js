@@ -23,8 +23,10 @@ import lock from '../assets/images/lock.png'
 import google from '../assets/icon/akar-icons_google-fill.png'
 import apple from '../assets/icon/bi_apple.png'
 import fb from '../assets/icon/brandico_facebook.png'
-
-
+import rec1 from '../assets/images/Rectangle 8.png'
+import rec2 from '../assets/images/Rectangle 9.png'
+import rec3 from '../assets/images/Rectangle 10.png'
+import rec4 from '../assets/images/Rectangle 11.png'
 
 
 export {
@@ -52,7 +54,11 @@ export {
     lock,
     google,
     apple,
-    fb
+    fb,
+    rec1,
+    rec2,
+    rec3,
+    rec4
 
 
 }
