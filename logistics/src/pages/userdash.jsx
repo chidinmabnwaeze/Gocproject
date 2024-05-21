@@ -33,19 +33,18 @@ const dashboard = [
 export default function Dashboard() {
   return (
     <div className="dashboard">
-      <Header/>
+      <Header />
       <div className="actions">
         {dashboard.map((dashBoard, index) => (
           <div className="action-card" key={index}>
             <img className="dash-img" src={dashBoard.img} alt="" />
 
-            {/* <div className="action-card-text"> */}
-
-            <h3 className="action-head">{dashBoard.title}</h3>
-            <p className="action-text">{dashBoard.subject}</p>
-            {/* </div> */}
-
-            <button className="dash-button">Request delivery Now</button>
+            <div className="action-card-text">
+              <h3 className="action-head">{dashBoard.title}</h3>
+              <p className="action-text">{dashBoard.subject}</p>
+              <button className="dash-button">Request delivery Now</button>
+            </div>
+            
           </div>
         ))}
       </div>

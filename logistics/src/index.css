@@ -586,27 +586,33 @@ text-align: center;
 /* dashboard styling */
 .actions{
 display: flex;
+justify-content: center;
+align-items: center;
 flex-wrap: wrap;
-margin: 60px;
+
 flex: 50%;
+background-color: red;
+padding: 60px;
 }
 .action-card{
   display: flex;
   flex: 50%;
   max-width: 50%;
-  /* padding: 0 4px; */
+  margin: 0 auto;
   flex-direction: column;
   width: 200px;
   justify-content: center;
- 
+  align-items: center;
 
- 
 }
 .dash-img{
-  width: 300px;
+  width: 400px;
 }
-.action-head{
- 
+/* .action-head{
+justify-content: left !important; 
+} */
+.action-text{
+width: 400px;
 }
 .dash-button{
   background-color: rgba(0, 119, 182, 1);
@@ -615,5 +621,5 @@ flex: 50%;
   border-radius: 20px;
   padding: 10px 15px;
   cursor: pointer;
-  width: 150px;
+  width: 200px;
 }
