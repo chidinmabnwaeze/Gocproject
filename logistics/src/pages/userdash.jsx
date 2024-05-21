@@ -1,59 +1,53 @@
 import React from "react";
-import Button from "../components/button"
-import { rec1,rec2 ,rec3 , rec4 } from "../constant/asset";
+import Button from "../components/button";
+import { rec1, rec2, rec3, rec4 } from "../constant/asset";
+import Header from "../components/header";
 
-const dashboard =[
+const dashboard = [
   {
     img: rec1,
     title: "Parcel Delivery",
-    subject: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et."
-    
+    subject:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.",
   },
   {
-    mg: rec1,
+    img: rec2,
     title: "Parcel Delivery",
-    subject: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et."
-    
-  },
-   {
-    mg: rec1,
-    title: "Parcel Delivery",
-    subject: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et."
-    
+    subject:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.",
   },
   {
-    mg: rec1,
+    img: rec3,
     title: "Parcel Delivery",
-    subject: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et."
-    
-  }
-]
-
-
-
-
-
+    subject:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.",
+  },
+  {
+    img: rec4,
+    title: "Parcel Delivery",
+    subject:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur autem corrupti soluta! Minima fuga repellat dolorem neque reiciendis.Nulla delectus odio magnam aut, quam rem corrupti reiciendis optio necessitatibus et.",
+  },
+];
 
 export default function Dashboard() {
   return (
     <div className="dashboard">
+      <Header/>
       <div className="actions">
-      {dashboard.map((dashBoard, index) =>(
-        <div className="action-card" key ={index}>
+        {dashboard.map((dashBoard, index) => (
+          <div className="action-card" key={index}>
+            <img className="dash-img" src={dashBoard.img} alt="" />
 
-        <img src="" alt="" />
+            {/* <div className="action-card-text"> */}
 
-        {/* <div className="action-card-text"> */}
-         
             <h3 className="action-head">{dashBoard.title}</h3>
-            <p className="action-text">{dashBoard.subject}
-                </p>
-        {/* </div> */}
-        <Button/>
-    </div>
-      )) }
-        
+            <p className="action-text">{dashBoard.subject}</p>
+            {/* </div> */}
 
+            <button className="dash-button">Request delivery Now</button>
+          </div>
+        ))}
       </div>
     </div>
   );

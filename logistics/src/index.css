@@ -583,3 +583,37 @@ text-align: center;
  cursor: pointer;
 
 }
+/* dashboard styling */
+.actions{
+display: flex;
+flex-wrap: wrap;
+margin: 60px;
+flex: 50%;
+}
+.action-card{
+  display: flex;
+  flex: 50%;
+  max-width: 50%;
+  /* padding: 0 4px; */
+  flex-direction: column;
+  width: 200px;
+  justify-content: center;
+ 
+
+ 
+}
+.dash-img{
+  width: 300px;
+}
+.action-head{
+ 
+}
+.dash-button{
+  background-color: rgba(0, 119, 182, 1);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 150px;
+}
