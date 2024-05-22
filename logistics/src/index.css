@@ -721,6 +721,9 @@ flex-direction: column;
   .actions{
     flex-direction: column;
   
+
+
+    
   }
   .action-text{
    font-size: 20px;
