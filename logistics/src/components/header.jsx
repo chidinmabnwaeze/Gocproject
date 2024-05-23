@@ -15,7 +15,7 @@ function header() {
 
           <ul className="nav-menu">
             <li className="nav-list">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="../home">
                 Home
               </a>
             </li>
@@ -33,15 +33,15 @@ function header() {
             </li>
 
             <li className="nav-list">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="../userdash">
                 About
               </a>
             </li>
           </ul>
 
           <div className="signupButtons">
-            <button className="login">Login</button>
-            <button className="register">Register</button>
+          <button className="login" ><a href="./login">Login</a> </button>
+            <button className="register"><a href="./signup">Register</a></button>
           </div>
         </nav>
       </header> 

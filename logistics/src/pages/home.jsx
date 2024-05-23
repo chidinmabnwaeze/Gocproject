@@ -1,7 +1,7 @@
 import react from "react";
 import { paxos } from "../constant/asset";
-import {newchip} from "../constant/asset"
-import {medable} from "../constant/asset"
+import { newchip } from "../constant/asset";
+import { medable } from "../constant/asset";
 import { parcel } from "../constant/asset";
 import { flight } from "../constant/asset";
 import { truck } from "../constant/asset";
@@ -24,7 +24,7 @@ function main() {
 
           <ul className="nav-menu">
             <li className="nav-list">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="../home">
                 Home
               </a>
             </li>
@@ -42,15 +42,19 @@ function main() {
             </li>
 
             <li className="nav-list">
-              <a className="nav-link" href="">
+              <a className="nav-link" href="../dashboard">
                 About
               </a>
             </li>
           </ul>
 
           <div className="signupButtons">
-            <button className="login">Login</button>
-            <button className="register">Register</button>
+            <button className="login">
+              <a href="./login">Login</a>{" "}
+            </button>
+            <button className="register">
+              <a href="./signup">Register</a>
+            </button>
           </div>
         </nav>
       </header>
@@ -66,16 +70,16 @@ function main() {
             </p>
             <div>
               <button className="delivery-request">
-                Send Delivery Request Now
+                <a href="./login"> Send Delivery Request Now</a>
               </button>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className="faint-logo">
-        <img className="img1" src= {medable} alt="" />
-        <img className="img2" src= {newchip} alt="" />
+        <img className="img1" src={medable} alt="" />
+        <img className="img2" src={newchip} alt="" />
         <img className="img3" src={paxos} alt="" />`
       </section>
 
@@ -130,10 +134,10 @@ function main() {
         </div>
       </section>
 
-      <Services/>
-      <Vendor/>
-      <Reviews/>
-      <Footer/>
+      <Services />
+      <Vendor />
+      <Reviews />
+      <Footer />
     </div>
   );
 }
