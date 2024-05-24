@@ -42,7 +42,29 @@ export default function request() {
           <p className="progress-name">Shipping</p>
         </div>
 
+      </div>
 
+      <div className="bodyForms">
+        <div className="pickup">
+            <div className="pickupHead">
+                <h3>Pickup details</h3>
+                <hr />
+            </div>
+
+            <form action="submit">
+                {/* <div className="customerName"> */}
+                <label htmlFor="name">
+                    <p>Customer's name</p>
+                    <input type="text"  />
+                </label>
+
+                <label htmlFor="email">
+                    <p>Email</p>
+                    <input type="text" />
+                </label>
+                {/* </div> */}
+            </form>
+        </div>
       </div>
     </div>
     </>
