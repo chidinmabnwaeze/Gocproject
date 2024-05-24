@@ -112,7 +112,7 @@ export default function request() {
                 <input type="text" id="pPhone" />
               </label>
 
-{/* needs javscript to be able to add a new delivery point */}
+              {/* needs javscript to be able to add a new delivery point */}
               <div className="addDelivery">
                 <label htmlFor="pAddress" aria-required>
                   <p>Pickup Address</p>
@@ -122,12 +122,19 @@ export default function request() {
                 <p className="add">+ Add another delivery point</p>
               </div>
 
+              {/* needs javscript to be able to schedule delivery time */}
               <label htmlFor="pTime">
                 <p>Pickup Time</p>
                 <input type="text" id="pTime" />
               </label>
             </form>
           </div>
+        </div>
+
+        <div className="proceed-button">
+            <button className="proceedToNext">
+                <a href="./request2">Proceed</a>
+            </button>
         </div>
       </div>
     </>
