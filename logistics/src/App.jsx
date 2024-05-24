@@ -2,13 +2,14 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import './Styles/request.css'
 import { BrowserRouter, Routes ,Route } from "react-router-dom";
 import Home from './pages/home';
-import Header from './components/header';
-import Services from './services';
-import Vendor from './components/vendor'
-import Reviews from './components/review';
-import Footer from './components/footer';
+// import Header from './components/header';
+// import Services from './services';
+// import Vendor from './components/vendor'
+// import Reviews from './components/review';
+// import Footer from './components/footer';
 import Login from './pages/login';
 import Signup from './pages/signup';
 import Dashboard from './pages/userdash';

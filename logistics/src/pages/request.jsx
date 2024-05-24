@@ -3,9 +3,9 @@ import Header from "../components/headProfile";
 
 export default function request() {
   return (
-    <>
-      <Header />
       <div className="request-pd">
+      <Header />
+      <div className="wholeParcelPage">
         <div className="requestheading">
           <h2>Request Parcel Delivery</h2>
         </div>
@@ -137,6 +137,7 @@ export default function request() {
             </button>
         </div>
       </div>
-    </>
+      </div>
+   
   );
 }
