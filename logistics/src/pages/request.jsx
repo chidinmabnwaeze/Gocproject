@@ -55,16 +55,63 @@ export default function request() {
                 {/* <div className="customerName"> */}
                 <label htmlFor="name">
                     <p>Customer's name</p>
-                    <input type="text"  />
+                    <input type="text" id="name" />
                 </label>
 
                 <label htmlFor="email">
                     <p>Email</p>
-                    <input type="text" />
+                    <input type="text" id="email"/>
+                </label>
+
+                <label htmlFor="phoneNumber">
+                    <p>Pickup Phone number </p>
+                    <input type="tel" id ="phoneNumber"/>
+                </label>
+
+                <label htmlFor="address">
+                    <p>Address</p>
+                    <input type="text" id="address"/>
+                </label>
+
+                <label htmlFor="category">
+                    <p>Category</p>
+                    <input type="text" id="category" placeholder="Select category"/>
+                     
+                     <select id="category">
+                    <option value="Parcel" id= "category">Parcel delivery</option>
+                    <option value="Parcel" id= "category">Parcel delivery</option>
+                    <option value="Parcel" id= "category">Parcel delivery</option>
+
+                    </select>
+                    
                 </label>
                 {/* </div> */}
             </form>
         </div>
+
+        <div className="deliveryPoint1">
+            <div className="deliveryHead">
+<p>Delivery Point 1</p>
+<hr />
+            </div>
+            <form action="/action.page">
+                <label htmlFor="rName" aria-required>
+                    <p>Receipient's Name</p>
+                    <input type="text" id="rName" />
+                </label>
+
+                <label htmlFor="pPhone">
+                    <p>Pickup Phone Number</p>
+                    <input type="text" id="pPhone" />
+                </label>
+
+                <label htmlFor="pAddress" aria-required>
+                    <p>Pickup Address</p>
+                    <input type="text" id="pAddress" />
+                </label>
+            </form>
+        </div>
+
       </div>
     </div>
     </>
