@@ -18,6 +18,7 @@ export default function request() {
             <p>1</p>
           </div>
           <p className="progress-name">Shipping</p>
+          <span><hr /></span>
         </div>
 
         <div className="hr-div">
@@ -41,7 +42,7 @@ export default function request() {
           <p className="progress-name">Shipping</p>
         </div>
 
-        
+
       </div>
     </div>
     </>
