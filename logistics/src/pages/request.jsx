@@ -15,31 +15,34 @@ export default function request() {
             <div className="circle1">
               <p>1</p>
             </div>
-            <p className="progress-name">Shipping</p>
-            <span>
-              <hr />
-            </span>
+            
+            <div className="progress-title">
+            <span className="progress-name">Shipping</span>
+          
+              <hr className="progress-line"/>
+            
+          </div>
           </div>
 
           <div className="hr-div">
             <hr />
           </div>
 
-          <div className="one">
+          <div className="two">
             <div className="circle1">
-              <p>1</p>
+              <p>2</p>
             </div>
-            <p className="progress-name">Shipping</p>
+            <p className="progress-name">Payment</p>
           </div>
           <div className="hr-div">
             <hr />
           </div>
 
-          <div className="one">
+          <div className="three">
             <div className="circle1">
-              <p>1</p>
+              <p>3</p>
             </div>
-            <p className="progress-name">Shipping</p>
+            <p className="progress-name">Confirmation</p>
           </div>
         </div>
 

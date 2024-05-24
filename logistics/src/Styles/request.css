@@ -4,5 +4,35 @@
 .requestheading{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
+.progress{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one, .two, .three {
+    background-color: red;
+    margin: 0 auto ;
+    
+}
+.circle1{
+    border-radius: 50%;
+    text-align: center;
+    width: 50%;
+    background-color: blue;
+}
+.progress-title{
+    display: flex;
+    align-items: center;
+    
+}
+.progress-title span{
+
+}
+.progress-line{
+    float: right;
+    width: 40%;
+    background-color: brown;
+}
+
