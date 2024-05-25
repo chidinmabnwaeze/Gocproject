@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 
 export default function request() {
   return (
-      <div className="request-pd">
+    <div className="request-pd">
       <Header />
       <div className="wholeParcelPage">
         <div className="requestheading">
@@ -16,12 +16,10 @@ export default function request() {
             <div className="circle1">
               <p>1</p>
             </div>
-            <p className="progress-name">Shipping</p>
-           
-            
-          
-              <hr className="progress-line"/>
-            
+           <div className="progress-title">
+           <p className="progress-name">Shipping</p>
+           </div>
+
           </div>
 
           <div className="hr-div">
@@ -29,7 +27,7 @@ export default function request() {
           </div>
 
           <div className="two">
-            <div className="circle1">
+            <div className="circle2">
               <p>2</p>
             </div>
             <p className="progress-name">Payment</p>
@@ -39,7 +37,7 @@ export default function request() {
           </div>
 
           <div className="three">
-            <div className="circle1">
+            <div className="circle3">
               <p>3</p>
             </div>
             <p className="progress-name">Confirmation</p>
@@ -56,27 +54,37 @@ export default function request() {
             <form action="submit">
               {/* <div className="customerName"> */}
               <label htmlFor="name">
-                <p>Customer's name <span className="asterisk">*</span></p>
+                <p>
+                  Customer's name <span className="asterisk">*</span>
+                </p>
                 <input type="text" id="name" />
               </label>
 
               <label htmlFor="email">
-                <p>Email <span className="asterisk">*</span></p>
+                <p>
+                  Email <span className="asterisk">*</span>
+                </p>
                 <input type="text" id="email" />
               </label>
 
               <label htmlFor="phoneNumber">
-                <p>Pickup Phone number <span className="asterisk">*</span></p>
+                <p>
+                  Pickup Phone number <span className="asterisk">*</span>
+                </p>
                 <input type="tel" id="phoneNumber" />
               </label>
 
               <label htmlFor="address">
-                <p>Address <span className="asterisk">*</span></p>
+                <p>
+                  Address <span className="asterisk">*</span>
+                </p>
                 <input type="text" id="address" />
               </label>
 
               <label htmlFor="category">
-                <p>Category <span className="asterisk">*</span></p>
+                <p>
+                  Category <span className="asterisk">*</span>
+                </p>
                 <input
                   type="text"
                   id="category"
@@ -106,19 +114,25 @@ export default function request() {
             </div>
             <form action="/action.page">
               <label htmlFor="rName" aria-required>
-                <p>Receipient's Name <span className="asterisk">*</span></p>
+                <p>
+                  Receipient's Name <span className="asterisk">*</span>
+                </p>
                 <input type="text" id="rName" />
               </label>
 
               <label htmlFor="pPhone">
-                <p>Pickup Phone Number <span className="asterisk">*</span></p>
+                <p>
+                  Pickup Phone Number <span className="asterisk">*</span>
+                </p>
                 <input type="text" id="pPhone" />
               </label>
 
               {/* needs javscript to be able to add a new delivery point */}
               <div className="addDelivery">
                 <label htmlFor="pAddress" aria-required>
-                  <p>Pickup Address <span className="asterisk">*</span></p>
+                  <p>
+                    Pickup Address <span className="asterisk">*</span>
+                  </p>
                   <input type="text" id="pAddress" />
                 </label>
 
@@ -135,13 +149,12 @@ export default function request() {
         </div>
 
         <div className="proceed-button">
-            <button className="proceedToNext">
-                <a href="./request2">Proceed</a>
-            </button>
+          <button className="proceedToNext">
+            <a href="./request2">Proceed</a>
+          </button>
         </div>
       </div>
-      <Footer/>
-      </div>
-   
+      <Footer />
+    </div>
   );
 }
