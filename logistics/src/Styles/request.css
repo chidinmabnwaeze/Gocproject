@@ -24,22 +24,27 @@
     padding: 2px;
 }
 .progress-title{
-    display: flex;
-    align-items: center;
+    display: inline;
+   
     
 }
 .progress-title span{
 
 }
-.progress-line{
-    float: right;
-    width: 40%;
-    background-color: brown;
+
+.hr-div{
+    background-color: green;
+    width: 20%;
+}
+.theHr{
+    width: 160px;
+    color: rgba(2, 2, 49, 1); 
+  
 }
 .bodyForms{
    display: flex;
    justify-content: center;
-   align-items: center;
+   
 
 }
 .pickup{
@@ -49,5 +54,12 @@
     margin: 0 auto;
 }
 input{
-    background-color: rgba(245, 245, 255, 1);
+    background-color: rgba(0, 119, 182, 0.11);
+}
+label p{
+    font-weight: 600;
+    color: rgba(2, 2, 49, 1);
+}
+.asterisk{
+    color: red;
 }

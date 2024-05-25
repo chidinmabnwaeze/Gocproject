@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/headProfile";
+import Footer from "../components/footer";
 
 export default function request() {
   return (
@@ -15,17 +16,16 @@ export default function request() {
             <div className="circle1">
               <p>1</p>
             </div>
+            <p className="progress-name">Shipping</p>
+           
             
-            <div className="progress-title">
-            <span className="progress-name">Shipping</span>
           
               <hr className="progress-line"/>
             
           </div>
-          </div>
 
           <div className="hr-div">
-            <hr />
+            <hr className="theHr" />
           </div>
 
           <div className="two">
@@ -56,27 +56,27 @@ export default function request() {
             <form action="submit">
               {/* <div className="customerName"> */}
               <label htmlFor="name">
-                <p>Customer's name</p>
+                <p>Customer's name <span className="asterisk">*</span></p>
                 <input type="text" id="name" />
               </label>
 
               <label htmlFor="email">
-                <p>Email</p>
+                <p>Email <span className="asterisk">*</span></p>
                 <input type="text" id="email" />
               </label>
 
               <label htmlFor="phoneNumber">
-                <p>Pickup Phone number </p>
+                <p>Pickup Phone number <span className="asterisk">*</span></p>
                 <input type="tel" id="phoneNumber" />
               </label>
 
               <label htmlFor="address">
-                <p>Address</p>
+                <p>Address <span className="asterisk">*</span></p>
                 <input type="text" id="address" />
               </label>
 
               <label htmlFor="category">
-                <p>Category</p>
+                <p>Category <span className="asterisk">*</span></p>
                 <input
                   type="text"
                   id="category"
@@ -101,24 +101,24 @@ export default function request() {
 
           <div className="deliveryPoint1">
             <div className="deliveryHead">
-              <p>Delivery Point 1</p>
+              <p>Delivery Point 1 </p>
               <hr />
             </div>
             <form action="/action.page">
               <label htmlFor="rName" aria-required>
-                <p>Receipient's Name</p>
+                <p>Receipient's Name <span className="asterisk">*</span></p>
                 <input type="text" id="rName" />
               </label>
 
               <label htmlFor="pPhone">
-                <p>Pickup Phone Number</p>
+                <p>Pickup Phone Number <span className="asterisk">*</span></p>
                 <input type="text" id="pPhone" />
               </label>
 
               {/* needs javscript to be able to add a new delivery point */}
               <div className="addDelivery">
                 <label htmlFor="pAddress" aria-required>
-                  <p>Pickup Address</p>
+                  <p>Pickup Address <span className="asterisk">*</span></p>
                   <input type="text" id="pAddress" />
                 </label>
 
@@ -140,6 +140,7 @@ export default function request() {
             </button>
         </div>
       </div>
+      <Footer/>
       </div>
    
   );
