@@ -14,13 +14,14 @@
 .one, .two, .three {
     background-color: red;
     margin: 0 auto ;
-    
+
 }
 .circle1{
     border-radius: 50%;
     text-align: center;
     width: 50%;
     background-color: blue;
+    padding: 2px;
 }
 .progress-title{
     display: flex;
@@ -35,4 +36,18 @@
     width: 40%;
     background-color: brown;
 }
+.bodyForms{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
+}
+.pickup{
+    margin: 0 auto;
+}
+.deliveryPoint1{
+    margin: 0 auto;
+}
+input{
+    background-color: rgba(245, 245, 255, 1);
+}
