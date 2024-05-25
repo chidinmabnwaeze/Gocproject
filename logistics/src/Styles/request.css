@@ -54,17 +54,23 @@
 } */
 .bodyForms {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 }
 .pickup {
-  margin: 0 auto;
+ margin: 0 auto;
+  width: calc(80%/2);
 }
 .deliveryPoint1 {
-  margin: 0 auto;
+    margin: 0 auto;
+  width: calc(80%/2);
 }
-input {
+.input {
   background-color: rgba(0, 119, 182, 0.11);
   
+}
+.input::before{
+    border-color: rgba(0, 119, 182, 1);
 }
 label p {
   font-weight: 600;
@@ -85,4 +91,8 @@ label p {
     border-radius: 20px;
     padding: 10px 25px;
     cursor: pointer;
+}
+.newDelivery{
+   margin-top: 30px;
+ 
 }

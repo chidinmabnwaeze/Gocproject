@@ -64,21 +64,21 @@ export default function request() {
                 <p>
                   Email <span className="asterisk">*</span>
                 </p>
-                <input type="text" id="email" />
+                <input className="input" type="text" id="email" />
               </label>
 
               <label htmlFor="phoneNumber">
                 <p>
                   Pickup Phone number <span className="asterisk">*</span>
                 </p>
-                <input type="tel" id="phoneNumber" />
+                <input className="input" type="tel" id="phoneNumber" />
               </label>
 
               <label htmlFor="address">
                 <p>
                   Address <span className="asterisk">*</span>
                 </p>
-                <input type="text" id="address" />
+                <input className="input" type="text" id="address" />
               </label>
 
               <label htmlFor="category">
@@ -86,6 +86,7 @@ export default function request() {
                   Category <span className="asterisk">*</span>
                 </p>
                 <input
+                className="input"
                   type="text"
                   id="category"
                   placeholder="Select category"
@@ -117,32 +118,36 @@ export default function request() {
                 <p>
                   Receipient's Name <span className="asterisk">*</span>
                 </p>
-                <input type="text" id="rName" />
+                <input className="input" type="text" id="rName" />
               </label>
 
               <label htmlFor="pPhone">
                 <p>
                   Pickup Phone Number <span className="asterisk">*</span>
                 </p>
-                <input type="text" id="pPhone" />
+                <input className="input" type="text" id="pPhone" />
               </label>
 
               {/* needs javscript to be able to add a new delivery point */}
               <div className="addDelivery">
+                <div>
                 <label htmlFor="pAddress" aria-required>
                   <p>
                     Pickup Address <span className="asterisk">*</span>
                   </p>
-                  <input type="text" id="pAddress" />
+                  <input className="input" type="text" id="pAddress" />
                 </label>
+                </div>
 
+                <div className="newDelivery">
                 <p className="add">+ Add another delivery point</p>
+                </div>
               </div>
 
               {/* needs javscript to be able to schedule delivery time */}
               <label htmlFor="pTime">
                 <p>Pickup Time</p>
-                <input type="text" id="pTime" />
+                <input className="input" type="text" id="pTime" />
               </label>
             </form>
           </div>
