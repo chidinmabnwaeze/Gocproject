@@ -57,7 +57,7 @@ export default function request() {
                 <p>
                   Customer's name <span className="asterisk">*</span>
                 </p>
-                <input type="text" id="name" />
+                <input className="input" type="text" id="name" />
               </label>
 
               <label htmlFor="email">
