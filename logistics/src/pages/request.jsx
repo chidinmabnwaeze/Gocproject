@@ -154,8 +154,8 @@ export default function request() {
         </div>
 
         <div className="proceed-button">
-          <button className="proceedToNext">
-            <a href="./request2">Proceed</a>
+          <button id="next" className="proceedToNext">
+            <a id="next" href="./request2">Proceed</a>
           </button>
         </div>
       </div>

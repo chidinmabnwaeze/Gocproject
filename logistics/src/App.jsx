@@ -14,6 +14,7 @@ import Login from './pages/login';
 import Signup from './pages/signup';
 import Dashboard from './pages/userdash';
 import Request from './pages/request';
+import Request2 from './pages/request2';
 
 
 
@@ -31,6 +32,7 @@ function App() {
     <Route path = "/signup" element ={<Signup/>}/>
     <Route path ="/dashboard" element ={<Dashboard/>}/>
     <Route path='/request' element ={<Request/>}/>
+    <Route path='/request2' element ={<Request2/>}/>
     </Routes>
     </BrowserRouter>
 

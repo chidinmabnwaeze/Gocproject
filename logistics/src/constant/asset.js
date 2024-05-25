@@ -27,6 +27,8 @@ import rec1 from '../assets/images/Rectangle 8.png'
 import rec2 from '../assets/images/Rectangle 9.png'
 import rec3 from '../assets/images/Rectangle 10.png'
 import rec4 from '../assets/images/Rectangle 11.png'
+import location from '../assets/icon/Group 4.png' 
+import map from '../assets/icon/Vector.png'
 
 
 export {
@@ -58,7 +60,9 @@ export {
     rec1,
     rec2,
     rec3,
-    rec4
+    rec4,
+    location,
+    map
 
 
 }
