@@ -70,7 +70,7 @@ function main() {
             </p>
             <div>
               <button className="delivery-request">
-                <a href="./login"> Send Delivery Request Now</a>
+                <a href="./request"> Send Delivery Request Now</a>
               </button>
             </div>
           </div>

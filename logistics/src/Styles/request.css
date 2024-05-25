@@ -68,3 +68,15 @@ label p {
 .asterisk {
   color: red;
 }
+.proceed-button{
+    display: flex;
+    justify-content: center;
+}
+.proceedToNext{
+    background-color: rgba(0, 119, 182, 1);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
