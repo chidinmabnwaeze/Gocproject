@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/headProfile";
 import Progress from "../components/progress";
-import { location } from "../constant/asset";
+import { location, map } from "../constant/asset";
 
 
 const Prices =[
@@ -12,7 +12,7 @@ const Prices =[
         amount: "N1700"
 
     },
-                                                                                                                                                                                                                                                                       gi
+                                                                                                                                                                                                                                                                       
 ]
 
 export default function request2() {
@@ -38,7 +38,7 @@ export default function request2() {
       <div className="dropOff">
         <div className="mapIndicator">
           <h4>D1</h4>
-          <img src={location} alt="" />
+          <img src={map} alt="" />
         </div>
 
         <div className="pickupLocation">
@@ -47,7 +47,8 @@ export default function request2() {
       </div>
 
       <div className="delivery-agents">
-        <div className="agent">
+        <div className="agent">  
+        Prices                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
           <div className="agentInfo">
             <h5 >Gokoda</h5>
             <p className="kilo">
