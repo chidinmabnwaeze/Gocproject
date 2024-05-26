@@ -3,6 +3,9 @@ import Header from "../components/headProfile";
 import Progress from "../components/progress";
 import { location } from "../constant/asset";
 
+
+
+
 export default function request2() {
   return (
     <div className="payment-request">
@@ -41,9 +44,13 @@ export default function request2() {
             <p className="kilo">
               35km <span>&#183;</span> 20min
             </p>
-            <p className="distance">2</p>
+            <p className="distance">2min away from you</p>
+          </div>
+          <div className="price">
+            <h1 className="amount">N1,700</h1>
           </div>
         </div>
+        <hr />
       </div>
     </div>
   );
