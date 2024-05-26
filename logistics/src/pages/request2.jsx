@@ -27,7 +27,7 @@ export default function request2() {
       <div className="pickOff">
         <div className="pickupIndicator">
           <h4>Pickup</h4>
-          <img src={location} alt="" />
+          <img className="location" src={location} alt="" />
         </div>
 
         <div className="pickupLocation">
@@ -38,7 +38,7 @@ export default function request2() {
       <div className="dropOff">
         <div className="mapIndicator">
           <h4>D1</h4>
-          <img src={map} alt="" />
+          <img className="location" src={map} alt="" />
         </div>
 
         <div className="pickupLocation">

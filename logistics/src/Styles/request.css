@@ -98,4 +98,14 @@ label p {
 }
 
 /* request2 styles */
-.
+.pickOff , .dropOff{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.pickupIndicator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
