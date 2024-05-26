@@ -6,9 +6,13 @@ import { location } from "../constant/asset";
 
 const Prices =[
     {
-agentName: "Gokada";
+        agentName: "Gokada",
+        kilometer: "35min $183; 20min",
+        distance: "2mins away from you",
+        amount: "N1700"
 
-    }
+    },
+                                                                                                                                                                                                                                                                       gi
 ]
 
 export default function request2() {
