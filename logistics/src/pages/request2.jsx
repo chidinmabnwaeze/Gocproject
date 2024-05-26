@@ -4,12 +4,12 @@ import Progress from "../components/progress";
 import { location } from "../constant/asset";
 
 
-// const function Prices =[
-//     {
-// agentName: "Gokada";
+const function Prices =[
+    {
+agentName: "Gokada";
 
-//     }
-// ]
+    }
+]
 
 export default function request2() {
   return (
