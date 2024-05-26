@@ -4,7 +4,12 @@ import Progress from "../components/progress";
 import { location } from "../constant/asset";
 
 
+const function Prices =[
+    {
+agentName: "Gokada";
 
+    }
+]
 
 export default function request2() {
   return (
@@ -12,7 +17,7 @@ export default function request2() {
       <Header />
       <div className="requestheading">
         <h2>Request Parcel Delivery</h2>
-      </div>
+      </div> 
       <Progress />
 
       <div className="pickOff">
@@ -40,7 +45,7 @@ export default function request2() {
       <div className="delivery-agents">
         <div className="agent">
           <div className="agentInfo">
-            <h5>Gokoda</h5>
+            <h5 >Gokoda</h5>
             <p className="kilo">
               35km <span>&#183;</span> 20min
             </p>
