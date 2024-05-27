@@ -103,9 +103,14 @@ label p {
     align-items: center;
     margin: 20px;
 }
-.pickupIndicator{
+.pickupIndicator , .mapIndicator{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: red;
+}
+.location{
+    width: ;
+    margin-left: 10px;
 }
