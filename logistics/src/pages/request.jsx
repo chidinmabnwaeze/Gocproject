@@ -1,8 +1,15 @@
 import React from "react";
 import Header from "../components/headProfile";
 import Footer from "../components/footer";
+import { useState } from "react";
 
 export default function request() {
+  const [pickUpCount, setPickupCount] = useState([
+    {
+      id: 1,
+      item: "",
+    },
+  ]);
   return (
     <div className="request-pd">
       <Header />
@@ -16,10 +23,9 @@ export default function request() {
             <div className="circle1">
               <p>1</p>
             </div>
-           <div className="progress-title">
-           <p className="progress-name">Shipping</p>
-           </div>
-
+            <div className="progress-title">
+              <p className="progress-name">Shipping</p>
+            </div>
           </div>
 
           <div className="hr-div">
@@ -86,7 +92,7 @@ export default function request() {
                   Category <span className="asterisk">*</span>
                 </p>
                 <input
-                className="input"
+                  className="input"
                   type="text"
                   id="category"
                   placeholder="Select category"
@@ -113,7 +119,7 @@ export default function request() {
               <p>Delivery Point 1 </p>
               <hr />
             </div>
-            <form action="/action.page">
+            <form action="">
               <label htmlFor="rName" aria-required>
                 <p>
                   Receipient's Name <span className="asterisk">*</span>
@@ -131,17 +137,29 @@ export default function request() {
               {/* needs javscript to be able to add a new delivery point */}
               <div className="addDelivery">
                 <div>
-                <label htmlFor="pAddress" aria-required>
-                  <p>
-                    Pickup Address <span className="asterisk">*</span>
-                  </p>
-                  <input className="input" type="text" id="pAddress" />
-                </label>
+                  {pickUpCount.map((item, index) => (
+                    <label key={index} htmlFor="pAddress" aria-required>
+                      <p>
+                        Pickup Address <span className="asterisk">*</span>
+                      </p>
+                      <input className="input" type="text" id="pAddress" />
+                    </label>
+                  ))}
                 </div>
 
-                <div className="newDelivery">
-                <p className="add">+ Add another delivery point</p>
-                </div>
+                <button type="button" onClick={()=>{
+                    console.log(pickUpCount)
+                     setPickupCount([
+                        ...pickUpCount,
+                        { id: pickUpCount.length++, name: `${pickUpCount.length++} name` }
+                      ]);
+                    // setPickupCount({
+                    //     ...pickUpCount,
+
+                    // })
+                }} className="newDelivery">
+                  <p className="add">+ Add another delivery point</p>
+                </button>
               </div>
 
               {/* needs javscript to be able to schedule delivery time */}
@@ -155,7 +173,9 @@ export default function request() {
 
         <div className="proceed-button">
           <button id="next" className="proceedToNext">
-            <a id="next" href="./request2">Proceed</a>
+            <a id="next" href="./request2">
+              Proceed
+            </a>
           </button>
         </div>
       </div>

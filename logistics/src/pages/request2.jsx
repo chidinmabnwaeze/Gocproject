@@ -3,6 +3,9 @@ import Header from "../components/headProfile";
 import Progress from "../components/progress";
 import { location, map } from "../constant/asset";
 
+const pageChange =() => {
+    console.log()
+}
 
 const Prices =[
     {
@@ -14,6 +17,7 @@ const Prices =[
     },
                                                                                                                                                                                                                                                                        
 ]
+
 
 export default function request2() {
   return (
