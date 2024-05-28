@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../components/headProfile";
 import Footer from "../components/footer";
 import { useState } from "react";
+import { useRef } from "react";
+import { useEffect } from "react";
 
 export default function request() {
   const [pickUpCount, setPickupCount] = useState([
@@ -10,8 +12,18 @@ export default function request() {
       item: "",
     },
   ]);
+  let somthing= 0
+  somthing=8
+
+  const fieldRef = useRef(null)
+ useEffect(()=>{
+    if(fieldRef.current){
+        // fieldRef.current.style=
+    }
+ },[])
+
   return (
-    <div className="request-pd">
+    <div ref={fieldRef} className="request-pd">
       <Header />
       <div className="wholeParcelPage">
         <div className="requestheading">
