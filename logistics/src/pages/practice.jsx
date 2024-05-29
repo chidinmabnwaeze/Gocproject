@@ -2,41 +2,43 @@ import React from "react";
 import { useState } from "react";
 
 const Practice = () => {
-    const [items, setItems] = useState([
-        {
-          id: 1,
-          checked: false,
-          item: "one bag of rice"
-        },
-        {
-          id: 2,
-          checked: false,
-          item: "one bag of beans"
-        },
-        {
-          id: 3,
-          checked: false,
-          item: "one bag of garri"
-        }
-      ]);
+  const [items, setItems] = useState([
+    {
+      id: 1,
+      checked: false,
+      item: "one bag of rice"
+    },
+    {
+      id: 2,
+      checked: false,
+      item: "one bag of beans"
+    },
+    {
+      id: 3,
+      checked: false,
+      item: "one bag of garri"
+    }
+  ]);
 
+  const handleCheck = (id) => {
+    console.log(`key: ${id}`);
+  };
 
   return (
     <main>
       <ul>
-        {items.map((item) => {
+        {items.map((item) => (
           <li className="item" key={item.id}>
             <input 
-            type="checkbox" 
-            name="input" 
-            id="" 
-            checked ={item.checked}
+              type="checkbox" 
+              name="input" 
+              onChange={() => handleCheck(item.id)}
+              checked={item.checked}
             />
-
             <span>{item.item}</span>
             <button>Delete</button>
-          </li>;
-        })}
+          </li>
+        ))}
       </ul>
     </main>
   );
