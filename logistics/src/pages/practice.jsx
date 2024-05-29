@@ -1,8 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const practice = () => {
-  const [items, setItems] = useState([
+const [items, setItems] = useState([
     {
       id: 1,
       checked: false,
@@ -20,14 +19,21 @@ const practice = () => {
     },
   ]);
 
+const practice = () => {
   return (
     <main>
       <ul>
         {items.map((item) => {
           <li className="item" key={item.id}>
-            <input type="checkbox" name="input" id="" />
+            <input 
+            type="checkbox" 
+            name="input" 
+            id="" 
+            checked ={item.checked}
+            />
 
             <span>{items.item}</span>
+            <button>Delete</button>
           </li>;
         })}
       </ul>
