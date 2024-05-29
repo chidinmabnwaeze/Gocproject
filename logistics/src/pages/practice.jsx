@@ -5,21 +5,21 @@ const [items, setItems] = useState([
     {
       id: 1,
       checked: false,
-      item: "one bag of rice",
+      item: "one bag of rice"
     },
     {
       id: 2,
       checked: false,
-      item: "one bag of beans",
+      item: "one bag of beans"
     },
     {
       id: 3,
       checked: false,
-      item: "one bag of garri",
-    },
+      item: "one bag of garri"
+    }
   ]);
 
-const practice = () => {
+const Practice = () => {
   return (
     <main>
       <ul>
@@ -32,7 +32,7 @@ const practice = () => {
             checked ={item.checked}
             />
 
-            <span>{items.item}</span>
+            <span>{item.item}</span>
             <button>Delete</button>
           </li>;
         })}
@@ -41,4 +41,4 @@ const practice = () => {
   );
 };
 
-export default practice;
+export default Practice;
