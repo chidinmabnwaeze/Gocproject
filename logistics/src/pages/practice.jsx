@@ -21,7 +21,10 @@ const Practice = () => {
   ]);
 
   const handleCheck = (id) => {
+    const listItems = items.map((item)=> item.id === id ? {...item,checked: !item.checked} : item);
+    setItems(listItems);
     console.log(`key: ${id}`);
+    localStorage.setItem('grocerieslist', JSON.stringify(listItems));
   };
 
   return (
@@ -35,7 +38,10 @@ const Practice = () => {
               onChange={() => handleCheck(item.id)}
               checked={item.checked}
             />
-            <span>{item.item}</span>
+            <span
+            style={(item.checked)? {color: "blue"} :null}
+            onDoubleClick={()=>handleCheck(item.id)}
+            >{item.item}</span>
             <button>Delete</button>
           </li>
         ))}
