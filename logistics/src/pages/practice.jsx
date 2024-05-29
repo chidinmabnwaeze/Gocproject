@@ -27,6 +27,12 @@ const Practice = () => {
     localStorage.setItem('grocerieslist', JSON.stringify(listItems));
   };
 
+  const handleDelete = (id) =>{
+    const listItems = items.filter((item)=> item.id !==id);
+    setItems(listItems)
+    localStorage.setItem('groceries', JSON.stringify(listItems))
+  }
+
   return (
     <main>
       <ul>
@@ -42,7 +48,9 @@ const Practice = () => {
             style={(item.checked)? {color: "blue"} :null}
             onDoubleClick={()=>handleCheck(item.id)}
             >{item.item}</span>
-            <button>Delete</button>
+            <button
+            onClick={()=>handleDelete(item.id)}
+            >Delete</button>
           </li>
         ))}
       </ul>
