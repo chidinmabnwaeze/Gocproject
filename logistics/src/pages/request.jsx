@@ -1,9 +1,7 @@
 import React from "react";
 import Header from "../components/headProfile";
 import Footer from "../components/footer";
-import { useState } from "react";
-import { useRef } from "react";
-import { useEffect } from "react";
+
 
 export default function request() {
   const [pickUpCount, setPickupCount] = useState([
