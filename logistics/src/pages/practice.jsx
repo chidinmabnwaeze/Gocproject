@@ -28,7 +28,11 @@ const Practice = () => {
     localStorage.setItem('grocerieslist', JSON.stringify(listItems));
   };
 
-
+  const handleDelete = (id) =>{
+    const listItems = items.filter((item)=> item.id !==id);
+    setItems(listItems)
+    localStorage.setItem('groceries', JSON.stringify(listItems))
+  }
 
   return (
     <main>
