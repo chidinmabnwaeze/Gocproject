@@ -11,6 +11,12 @@ const addItems = () => {
         placeholder="Add Item"
         required
       />
+      <button
+      type="submit"
+      aria-label="Add Item"
+      >
+
+      </button>
     </form>
   );
 };

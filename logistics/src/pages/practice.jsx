@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+// import addItems from "../components/addItems";
 
 const Practice = () => {
   const [items, setItems] = useState([
@@ -27,11 +28,7 @@ const Practice = () => {
     localStorage.setItem('grocerieslist', JSON.stringify(listItems));
   };
 
-  const handleDelete = (id) =>{
-    const listItems = items.filter((item)=> item.id !==id);
-    setItems(listItems)
-    localStorage.setItem('groceries', JSON.stringify(listItems))
-  }
+
 
   return (
     <main>
