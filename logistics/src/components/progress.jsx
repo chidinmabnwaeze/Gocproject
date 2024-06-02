@@ -34,5 +34,9 @@ export default function progress(){
           <p className="progress-name">Confirmation</p>
         </div>
       </div>
+
+
+
+
     )
 }
