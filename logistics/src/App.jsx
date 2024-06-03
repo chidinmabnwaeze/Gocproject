@@ -15,7 +15,7 @@ import Signup from './pages/signup';
 import Dashboard from './pages/userdash';
 import Request from './pages/request';
 import Request2 from './pages/request2';
-import Practice from './pages/practice';
+
 
 
 
@@ -35,7 +35,6 @@ function App() {
     <Route path ="/dashboard" element ={<Dashboard/>}/>
     <Route path='/request' element ={<Request/>}/>
     <Route path='/request2' element ={<Request2/>}/>
-    <Route path='/practice' element ={<Practice/>} />
     </Routes>
     </BrowserRouter>
 
