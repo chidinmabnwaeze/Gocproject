@@ -1,7 +1,7 @@
 import react from "react";
 import { paxos } from "../constant/asset";
 import { newchip } from "../constant/asset";
-import { medable } from "../constant/asset";
+import Medable from "../assets/images/Medable svg.png";
 import { parcel } from "../constant/asset";
 import { flight } from "../constant/asset";
 import { truck } from "../constant/asset";
@@ -9,56 +9,13 @@ import { carbon } from "../constant/asset";
 import Services from "../services";
 import Vendor from "../components/vendor";
 import Reviews from "../components/review";
+import Header from "../components/header";
 import Footer from "../components/footer";
 
 function main() {
   return (
     <div>
-      <header className="theheader">
-        <nav className="navbar">
-          <div className="nav-logo">
-            <p>
-              Logi<span>Hub</span>
-            </p>
-          </div>
-
-          <ul className="nav-menu">
-            <li className="nav-list">
-              <a className="nav-link" href="../home">
-                Home
-              </a>
-            </li>
-
-            <li className="nav-list">
-              <a className="nav-link" href="">
-                Become a Vendor
-              </a>
-            </li>
-
-            <li className="nav-list">
-              <a className="nav-link" href="">
-                Support
-              </a>
-            </li>
-
-            <li className="nav-list">
-              <a className="nav-link" href="../dashboard">
-                About
-              </a>
-            </li>
-          </ul>
-
-          <div className="signupButtons">
-            <button className="login">
-              <a href="./login">Login</a>{" "}
-            </button>
-            <button className="register">
-              <a href="./signup">Register</a>
-            </button>
-          </div>
-        </nav>
-      </header>
-
+      <Header />
       <section className="section1">
         <div className="middle-text">
           <div className="second-div">
@@ -78,7 +35,7 @@ function main() {
       </section>
 
       <section className="faint-logo">
-        <img className="img1" src={medable} alt="" />
+        <img className="img1" src={Medable} alt="" />
         <img className="img2" src={newchip} alt="" />
         <img className="img3" src={paxos} alt="" />`
       </section>
